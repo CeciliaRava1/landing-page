@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right_items {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+ul {
+    list-style: none;
+}
+
+.section_one {
+    background-color: #1F2937;
+}
+
+.section_one h1 {
+    /* This website is awesome*/
+    font-size: 48px;
+    font-style: bold;
+    color: #F9FAF8;
+}
+
+.section_one p {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+.section_two h2 {
+    font-size: 32px;
+    color: #1F2937;
+    font-style: bold;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #3882F6; 
+    border-radius: 20px;
+}
+
+.container {
+    font-weight: 300;
+}
+
+.section_three {
+    /* inspiring quote*/
+    font-weight: 300;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.section_three h3 {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.section_four {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 300;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
+.button_two{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #E5E7EB;
+    padding: 5px 20px 5px 20px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-weight: 300;
+}
