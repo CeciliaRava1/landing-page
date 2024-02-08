@@ -57,7 +57,7 @@ ul {
     /* This website is awesome*/
     font-size: 48px;
     color: #F9FAF8;
-    margin-bottom: 0;
+    margin-bottom: 22px;
 }
 
 .section_one p {
@@ -65,13 +65,20 @@ ul {
     color: #E5E7EB;
     font-weight: 300;
     margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.p {
+    text-align: center;
+    margin-left: 120px;
 }
 
 .section_one img {
-    width: 80%;
-    height: 50%;
+    width: 65%;
+    height: 55%;
     margin-top: 45px;
     margin-bottom: 17px;
+    margin-left: 210px;
 }
 
 .box_one {
@@ -84,6 +91,18 @@ ul {
     flex: 1;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 8px;
+    font-weight: 900;
+    width: 25%;
+    margin-top: 17px;
+    font-size: 24px;
+}
+
 /* Section two */
 h2 {
     font-size: 32px;
@@ -93,7 +112,7 @@ h2 {
 }
 
 .section_two {
-    margin:60px 120px 140px 120px;
+    margin:60px 400px 140px 400px;
     padding-bottom: 0px;
 
     /* flexbox */
@@ -116,8 +135,8 @@ h2 {
     /* flexbox */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 
@@ -129,7 +148,7 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    padding: 70px 170px 70px 170px;
+    padding: 70px 200px 70px 200px;
     margin-bottom: 100px;
 
     /* flexbox */
@@ -142,8 +161,9 @@ h2 {
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
+
     display: flex;
-    align-self: flex-end;
+    align-self: center;
 }
 
 /* Section four */
@@ -155,6 +175,7 @@ h2 {
     border-radius: 4px;
     padding: 20px;
     margin-bottom: 100px;
+    font-size: 24px;
 
      /* flexbox */
      display: flex;
@@ -190,20 +211,11 @@ h2 {
 
 }
 
-button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border: 0px;
-    padding: 5px 20px 5px 20px;
-    border-radius: 8px;
-    font-weight: 900;
-    width: 25%;
-}
-
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-weight: 300;
     padding: 10px;
     text-align: center;
+    font-size: 20px;
 }
